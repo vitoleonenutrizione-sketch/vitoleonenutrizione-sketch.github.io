@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vito Leone — Nutrition & Food Systems</title>
+  <meta name="description" content="Portfolio of Vito Leone — Human Nutrition, Food Systems, Public Health Nutrition, Data & Evidence.">
+  <style>
+    :root{
+      --bg:#f7f8f6;
+      --card:#ffffff;
+      --ink:#182321;
+      --muted:#60706c;
+      --line:#dce3df;
+      --accent:#205f52;
+      --accent2:#e7f0ed;
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:var(--bg);
+      color:var(--ink);
+      line-height:1.6;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 24px}
+    header{
+      position:sticky;top:0;z-index:10;
+      background:rgba(247,248,246,.92);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid var(--line);
+    }
+    nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:800;letter-spacing:-.02em}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.94rem;color:var(--muted)}
+    .navlinks a{text-decoration:none}
+    .hero{padding:96px 0 72px}
+    .eyebrow{
+      display:inline-block;padding:7px 11px;border-radius:999px;
+      background:var(--accent2);color:var(--accent);font-weight:700;font-size:.82rem;
+      letter-spacing:.02em;text-transform:uppercase
+    }
+    h1{
+      max-width:850px;font-size:clamp(2.6rem,7vw,5.7rem);
+      line-height:.98;letter-spacing:-.055em;margin:22px 0 24px
+    }
+    .lead{max-width:770px;color:var(--muted);font-size:1.18rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+    .btn{
+      display:inline-block;padding:12px 16px;border-radius:10px;
+      text-decoration:none;font-weight:700;border:1px solid var(--line);background:white
+    }
+    .btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+    section{padding:72px 0;border-top:1px solid var(--line)}
+    .section-head{display:grid;grid-template-columns:1fr 1.6fr;gap:40px;align-items:start;margin-bottom:36px}
+    h2{font-size:clamp(2rem,4vw,3.25rem);letter-spacing:-.04em;line-height:1.05;margin:0}
+    .section-head p{margin:0;color:var(--muted);font-size:1.05rem}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0 34px}
+    .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .stat b{display:block;font-size:1.9rem;letter-spacing:-.04em;color:var(--accent)}
+    .stat span{color:var(--muted);font-size:.9rem}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+    .card h3{margin:0 0 10px;font-size:1.12rem}
+    .card p{margin:0;color:var(--muted)}
+    .tagrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+    .tag{padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:.88rem;color:#42504d}
+    .project{
+      background:linear-gradient(135deg,#143f37,#205f52);
+      color:white;border-radius:22px;padding:34px;margin-top:20px
+    }
+    .project p{color:#dceae6}
+    .project .eyebrow{background:rgba(255,255,255,.12);color:white}
+    .project .btn{background:white;color:#143f37;border-color:white}
+    .timeline{display:grid;gap:12px}
+    .item{display:grid;grid-template-columns:170px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid var(--line)}
+    .item:last-child{border-bottom:0}
+    .when{font-weight:700;color:var(--accent)}
+    .item h3{margin:0 0 4px}
+    .item p{margin:0;color:var(--muted)}
+    footer{padding:52px 0 70px;color:var(--muted)}
+    .footerbox{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+    @media (max-width:800px){
+      .navlinks{display:none}
+      .section-head{grid-template-columns:1fr}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      .grid{grid-template-columns:1fr}
+      .item{grid-template-columns:1fr;gap:6px}
+      .hero{padding-top:68px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand">Vito Leone</div>
+      <div class="navlinks">
+        <a href="#project">Project</a>
+        <a href="#methods">Methods</a>
+        <a href="#experience">Experience</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <span class="eyebrow">Nutrition · Food Systems · Evidence</span>
+    <h1>Turning nutrition and food-system information into structured evidence.</h1>
+    <p class="lead">
+      Human Nutrition professional with a background in food science, independent nutrition practice
+      and community health. My current work focuses on public health nutrition, school food systems,
+      evidence synthesis and practical monitoring frameworks.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href="#project">View flagship project</a>
+      <a class="btn" href="assets/Vito_Leone_Portfolio_Food_Systems_2026_v2.pdf">Download portfolio PDF</a>
+    </div>
+  </div>
+
+  <section id="project">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="eyebrow">Flagship project</span><h2>Italian School Meals Observatory</h2></div>
+        <p>
+          An independent multi-municipality pilot examining published school-menu provision,
+          governance, monitoring, sustainable procurement and the public availability of outcome data.
+        </p>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b>7</b><span>municipalities</span></div>
+        <div class="stat"><b>170</b><span>coded lunches</span></div>
+        <div class="stat"><b>12</b><span>governance domains</span></div>
+        <div class="stat"><b>10%</b><span>stratified QA sample</span></div>
+      </div>
+
+      <div class="project">
+        <span class="eyebrow">What I built</span>
+        <h2 style="margin-top:16px">A reproducible framework, not a ranking.</h2>
+        <p>
+          I developed a codebook, sampling rules, a governance matrix and a QA workflow to compare
+          heterogeneous public information without turning municipalities into a simplistic league table.
+          A source-version discrepancy identified during QA triggered a complete 45-row re-code for Rome,
+          preserving methodological consistency and provenance.
+        </p>
+        <div class="actions">
+          <a class="btn" href="assets/Italian_School_Meals_Observatory_Technical_Report_v1.0.pdf">Read Technical Report v1.0</a>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:16px">
+        <div class="card">
+          <h3>Research design</h3>
+          <p>Defined the analytical framework, operational codebook, sentinel-week rules and source-handling conventions.</p>
+        </div>
+        <div class="card">
+          <h3>Data & quality assurance</h3>
+          <p>Structured day-level menu data, documented provenance and audited a stratified sample across all municipalities.</p>
+        </div>
+        <div class="card">
+          <h3>Food-system analysis</h3>
+          <p>Connected menu provision with monitoring, procurement, stakeholder participation, special diets, waste and transparency.</p>
+        </div>
+        <div class="card">
+          <h3>Evidence translation</h3>
+          <p>Produced a technical report and a targeted access-to-information strategy to fill outcome-data gaps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="methods">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Methods & technical toolkit</h2>
+        <p>Capabilities demonstrated through actual work rather than listed as generic soft skills.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Evidence work</h3>
+          <div class="tagrow">
+            <span class="tag">Structured data collection</span>
+            <span class="tag">Codebook development</span>
+            <span class="tag">Menu coding</span>
+            <span class="tag">Quality assurance</span>
+            <span class="tag">Public-document analysis</span>
+            <span class="tag">Evidence synthesis</span>
+            <span class="tag">Monitoring frameworks</span>
+            <span class="tag">Technical reporting</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <div class="tagrow">
+            <span class="tag">Excel — advanced</span>
+            <span class="tag">R — working knowledge</span>
+            <span class="tag">Access</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Microsoft Office</span>
+            <span class="tag">Scientific literature review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Professional experience</h2>
+        <p>Selected experience relevant to nutrition, health services, evidence translation and food systems.</p>
+      </div>
+      <div class="timeline">
+        <div class="item">
+          <div class="when">2023–2026</div>
+          <div>
+            <h3>Pharmacy — diagnostic testing & customer support</h3>
+            <p>Support for blood pressure, blood glucose, lipid profile, ECG, Holter and spirometry services, plus supplement and wellness guidance.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">2021–2023</div>
+          <div>
+            <h3>Independent nutrition practice</h3>
+            <p>Nutrition assessment, counselling, dietary planning and translation of nutrition evidence into practical recommendations.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">2019–2020</div>
+          <div>
+            <h3>Nutrition internship</h3>
+            <p>Training experience supporting nutrition-related professional activity and applied assessment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Professional interests</h2>
+        <p>Areas I want to contribute to professionally. These are interests, not presented as completed research projects.</p>
+      </div>
+      <div class="tagrow">
+        <span class="tag">School food systems</span>
+        <span class="tag">Public health nutrition</span>
+        <span class="tag">Sustainable food procurement</span>
+        <span class="tag">Food-system monitoring</span>
+        <span class="tag">Functional foods</span>
+        <span class="tag">Fermentation</span>
+        <span class="tag">Microbiome</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap footerbox">
+    <div>
+      <strong style="color:var(--ink)">Vito Leone</strong><br>
+      Nutrition & Food Systems
+    </div>
+    <div>
+      <a href="mailto:vitoleone.nutrizione@gmail.com">vitoleone.nutrizione@gmail.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
